@@ -3,8 +3,8 @@ class CConexion
 {
     function ConexionBD()
     {
-        $host = "localhost";
-        $dbname = "ISPv2";
+        $host = "postgresrds1.cbcec0scsed1.us-east-2.rds.amazonaws.com";
+        $dbname = "RDS";
         $username = "postgres";
         $password = "123456789"; // Agrega la contraseña aquí
 
